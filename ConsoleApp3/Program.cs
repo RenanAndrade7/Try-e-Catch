@@ -28,6 +28,11 @@ namespace ConsoleApp3
             {
                 Console.WriteLine("Formato errado!!" + e.Message);
             }
+
+            finally
+            {
+                Console.WriteLine("O Código Finally executa uma operação no final de Try e Catch");
+            }
         }
     }
 }
